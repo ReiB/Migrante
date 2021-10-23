@@ -440,6 +440,11 @@ ul.foco-bullet{
     border-radius:50%;
 }
 
+.imagen-mobile {
+position:relative;
+margin:auto;
+        }
+
 .testimonial-item {
     background-color:#f9f9f9;
     padding:3% 5% 5%;
