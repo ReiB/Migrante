@@ -441,6 +441,7 @@ ul.foco-bullet{
 }
 
 .imagen-mobile {
+    top: -140px;
 position:relative;
 margin:auto;
         }
