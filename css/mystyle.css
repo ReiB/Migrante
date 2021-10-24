@@ -443,8 +443,7 @@ ul.foco-bullet{
 .imagen-mobile {
 top: -140px;
 position:relative;
-margin:20px;
-        }
+}
 
 @media screen and (max-width: 980px) {
 .imagen-mobile {
@@ -456,6 +455,7 @@ display: none;
   width: 65%;
   padding-right: 30px;
   padding-left: 30px;
+  margin-inline: 1em 2em;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
