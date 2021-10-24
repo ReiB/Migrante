@@ -559,7 +559,7 @@ footer li a:hover {
 
 /*Styles para pagina Servicio*/
 
-#services-row .col {
+#services-row .servicios-img-container {
     border-radius:8%;
     background-repeat:no-repeat;
     background-size:cover;
