@@ -65,13 +65,17 @@
 }
 
 .catalogo-servicios {
-    max-width:100vw;
+    max-width:80vw;
     position:relative;
+    margin-left:auto !important;
+    margin-right:auto !important;
 }
 
 .catalogo-servicios img {
     max-width:100%;
     border-radius:10px;
+    padding-left:10vw;
+    padding-right:10vw;
 }
 
 .servicio-disponible {
