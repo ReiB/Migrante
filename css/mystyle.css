@@ -27,7 +27,6 @@
 }
 
 
-
 .primary-color {
     color:#733fe7;
 }
@@ -177,6 +176,10 @@ ul.foco-bullet{
         font-weight:700;
         line-height:1.1em;
     }
+    .moto-propia h5 {
+        font-size:1.6em;
+        line-height:1.1em;
+    }
     
     #preguntas-respuesta {
         display:flex;
@@ -186,12 +189,29 @@ ul.foco-bullet{
     }
     #respuesta-grande h2{
         font-size:12em !important;
+        font-weight:700;
         padding-top:0;
         margin-top:0;
     }
     .text-sm-nowrap {
         white-space:normal;
     }
+    .producto-item img {
+        width:80% !important;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .brand-wrapper img {
+        width:80%;
+        height:auto;
+    }
+
+    .heading-medios h2 {
+        font-size:1.4em;
+        clear:both !important;
+    }
+
     .testimonial-item .img-testimonial {
         width:80%;
         height:80%;
@@ -221,9 +241,6 @@ ul.foco-bullet{
         width:85vw;
         margin: 0 auto;
     }
-    .text-center-mobile {
-        text-align:center !important;
-    }
     .info-pago h2 {
         font-size:1.2em;
     }
@@ -233,10 +250,6 @@ ul.foco-bullet{
     }
     .info-pago li p {
         font-size:.9em;
-    }
-    
-    .application-image img {
-        width:80vw !important;
     }
     
 }
@@ -323,9 +336,12 @@ ul.foco-bullet{
 
 
 .producto-item img {
-    width:230px;
-    height:auto;
+    width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
+
 .product-info .precio {
     margin-top:10px;
 }
@@ -400,7 +416,8 @@ ul.foco-bullet{
 }
 
 .brand-wrapper img {
-    padding: 2% 6%;
+    height:auto;
+    padding: 2% 4%;
 }
 
 .rounded-container-border {
@@ -408,7 +425,6 @@ ul.foco-bullet{
 }
 
 .tipos-pago {
-    padding:5% 0% !important;
 }
 
 .info-pago {
@@ -438,13 +454,15 @@ ul.foco-bullet{
 
 .imagen-redonda {
     border-radius:50%;
+    display:block;
+    margin:auto;
 }
 
 .imagen-mobile {
-top: -140px;
-position:relative;
-margin:20px;
-        }
+    top: -140px;
+    position:relative;
+    margin:20px;
+}
 
 .testimonial-item {
     background-color:#f9f9f9;
@@ -503,7 +521,7 @@ margin:20px;
 
 
 .reduce-left-margin img {
-    margin-left:-8vw !important;
+    margin-left:-6vw !important;
 }
 
 footer {
