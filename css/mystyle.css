@@ -623,3 +623,18 @@ footer li a:hover {
     width:50%;
     height:auto;
 }
+
+.tipos-pagoindex {
+    padding:5% 0% !important;
+}
+
+.info-pagoindex {
+    color: #733FE7;
+    font-size:18px;
+    line-height:1.1em;
+}
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
