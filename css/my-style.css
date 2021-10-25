@@ -61,10 +61,6 @@ a.primary-color:hover {
     margin-left:6vw !important;
 }
 
-#moto-header-buttons p:last-child {
-    padding-left:20px; 
-}
-
 #moto-header-buttons a.btn-lg {
     padding:10px 40px;
 }
